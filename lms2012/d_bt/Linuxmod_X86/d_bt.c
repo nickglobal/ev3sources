@@ -50,6 +50,8 @@ static int ModuleInit(void)
 {
   printk("%s init started\n",MODULE_NAME);
 
+  printk("%s commit id test\n",MODULE_NAME);
+
   return (0);
 }
 
