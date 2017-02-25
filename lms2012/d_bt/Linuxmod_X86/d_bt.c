@@ -50,11 +50,15 @@ static int ModuleInit(void)
 {
   printk("%s init started\n",MODULE_NAME);
 
+  printk("%s commit id test\n",MODULE_NAME);
+
+  printk("%s commit id 2\n",MODULE_NAME);
   return (0);
 }
 
 
 static void ModuleExit(void)
 {
-  printk("%s exit started\n",MODULE_NAME);
+    // add comment
+    printk("%s exit started\n",MODULE_NAME);
 }
