@@ -55,6 +55,8 @@ static int ModuleInit(void)
   printk("%s commit id 2\n",MODULE_NAME);
 
   printk("%s commit id 3\n",MODULE_NAME);
+
+  printk("%s commit id 4\n",MODULE_NAME);
   return (0);
 }
 
